@@ -68,7 +68,7 @@ font-family:luminary,fantasy;
    }
 </style>
 <body>
-<h1>MY WEBPAGE PROFILE</h1>
+<h1 id="demo">MY WEBPAGE PROFILE</h1>
 <img class="imgcent" src="./images/mypic.jpg" alt="MyHandsomePic">
 <h5>DAREN JOHN B. BARCIA</h5>
 <p>
@@ -82,5 +82,10 @@ Outside of academics, you'll often find me glued to my computer screen, either g
 
 Ultimately, my goal is to become a <sup>wealthy traveler</sup>, exploring various destinations around the world. It's a dream I'm determined to turn into reality.
 </p>
+<button onclick="window.print()">Print My Profile</button>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "DARENTHEGREAT!"'>Click Me!</button>
+<script>
+window.alert("DarenIsHandsome");
+</script>
 </body>
 </html>
