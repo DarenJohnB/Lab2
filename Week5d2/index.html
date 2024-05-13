@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DarenTheGreat</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 50;
+  padding: 50;
+  overflow: auto;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+body{
+background-image: url("./images/pexels.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+h1{
+color:dodgerblue;
+text-align:center;
+font-size:500%;
+font-family:luminary,fantasy;
+}
+   .imgcent{
+   display: block;
+            margin: 30px auto;
+            max-width: 200px;
+            border-radius: 10%;
+   }
+   h5{
+   color:white;
+   text-align:center;
+   font-size:200%;
+   font-family:Brush Script MT, cursive;
+   }
+   p{
+   background-color: #686868;
+   background-color: hsl(0, 0%, 60%, 0.6);
+   color:white;
+   text-align:center;
+   font-size:100%;
+   font-family:comic sans ms,cursive;
+   }
+</style>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Information</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Education</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Others</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Contacts</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<h1 id="demo">MY WEBPAGE PROFILE</h1>
+<img class="imgcent" src="./images/mypic.jpg" alt="MyHandsomePic">
+<h5>DAREN JOHN B. BARCIA</h5>
+<p>
+Hey there, I'm <i>Daren</i>, a <em>22</em>-year-old <ins>IT student</ins> from <strong><mark>Asia Pacific College, Makati City.</mark></strong> My journey to this point has been quite the ride. Initially, I had my sights set on studying Architecture at <mark><del>Mapua University</del></mark>, but with the onset of <small>COVID-19</small>, I decided it wasn't the right time to be on campus. So, I shifted gears and enrolled at <mark><del>AMA University Makati</del></mark> as a BSIT student. After two years there, I felt it was time to come back to APC to finish what I started.
+
+I've always been passionate about programming and gaming. That's why I'm really looking forward to diving deep into web development in this course. I expect to learn a lot — <sub>HTML, CSS, JavaScript, server-side programming, databases, Git, and all </sub> the emerging web technologies.
+
+But it's not just about web programming. I want to be well-rounded in my field. That means mastering programming languages, understanding software development methodologies, getting a grip on database management, networking concepts, cybersecurity, and even project management.
+
+Outside of academics, you'll often find me glued to my computer screen, either gaming or working on a coding project. I also love hitting the basketball court whenever I get the chance.
+
+Ultimately, my goal is to become a <sup>wealthy traveler</sup>, exploring various destinations around the world. It's a dream I'm determined to turn into reality.
+</p>
+<button onclick="window.print()">Print My Profile</button>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "DARENTHEGREAT!"'><a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Clickme!">Click for Greatness!</a></button>
+<script>
+window.alert("DarenIsHandsome");
+</script>
+</body>
+</html>
